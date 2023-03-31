@@ -1,0 +1,145 @@
+/* Universal */
+body{
+    background-color: #000;
+}
+
+.red{
+    color: red;
+}
+
+/* Navbar */
+#navbarSupportedContent{
+    text-align: right;
+}
+
+.navbar-nav{
+    padding-left: 80%;
+}
+
+.nav-item{
+    padding:0% 9%;
+}
+
+.navbar-brand{
+    font-size: 210%;
+}
+
+/* Title */
+
+.title{
+    font-family: 'Lato';
+    padding-bottom: 16%;
+    
+}
+
+.main-title{
+    font-size: 500%;
+}
+
+.main-title-home{
+    color: white;
+    margin-top: 25vh;
+}
+
+.title-text{
+    display: inline-block;
+}
+
+.img{
+    position: absolute;
+    left: 56vw;
+    top: 5vw;
+}
+/* Features */
+
+#features{
+    text-align: center;
+    font-size: 200%;
+    padding: 12% 4%;
+    background-color: #262A56;
+    color: white;
+}
+.all-i{
+    color: darkorange;
+    padding-bottom:8%;
+    font-size: 150%;
+}
+
+.circle-i:hover{
+    color: green;
+}
+
+.bull-i:hover{
+    color: red;
+}
+
+.heart-i:hover{
+    color: deeppink;
+}
+
+feature-title{
+    font-size: 2.5rem;
+}
+
+/* Testimonials */
+
+.testimonials{
+    padding-top: 20%;
+    padding-bottom: 12%;
+    background-color: black;
+    text-align: center;
+}
+
+.cara-heading{
+    color: white;
+    margin:0% 25%;
+}
+
+.cara-h3{
+    margin:2% 25%;
+    color: white;
+}
+
+.cara-img{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top:2%; 
+}
+
+/* Freelancing */
+
+.fiverr{
+    padding: 12%;
+    text-align: center;
+    background-color: #262A56;
+}
+
+.fiverr-h1{
+    color: white;
+}
+
+.btn-fiverr{
+    margin-top: 5%;
+}
+
+.a-fiverr{
+    text-decoration: none;
+}
+
+.copyright-social{
+    background-color: white;
+    padding:10%;
+    text-align: center;
+}
+
+.social{
+    padding: 2% 1%;
+}
+
+/* Media Queries */
+@media(max-width:1020px){
+    .img{
+        position: static;
+        width: 200%;
+    }
+}
